@@ -1,0 +1,25 @@
+{
+  "name": "Request Me",
+  "private":true,
+  "version": "0.0.1",
+  "author": "Shan Ting <shantingst@gmail.com>",
+  "description": "An elegant & efficient app proxy for nodejs/python apps",
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "main":"app.coffee",
+  "keywords":[
+    "proxy",
+    "app server",
+    "status"
+  ],
+  "dependencies" : {
+    "async":"latest",
+    "alfred":"latest",
+    "commander":"latest"
+  },
+  "analyze": false,
+  "engines": {
+    "node": ">=0.10"
+  }
+}
